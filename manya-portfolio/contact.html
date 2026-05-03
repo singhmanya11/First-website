@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact | Manya Singh</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Background Elements -->
+<canvas id="particles"></canvas>
+<div class="blob blob1"></div>
+<div class="blob blob2"></div>
+
+<div class="cursor"></div>
+
+<!-- Navigation -->
+<nav>
+  <a href="index.html" class="logo">Manya</a>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="music.html">Music</a></li>
+    <li><a href="contact.html" class="active">Contact</a></li>
+  </ul>
+</nav>
+
+<section class="page-section">
+  <h1 class="page-title" data-aos="fade-down">Let's Connect</h1>
+  
+  <div class="contact-container" style="width: 100%; max-width: 600px;">
+    
+    <div class="card tilt" data-aos="fade-up" data-aos-delay="100">
+      <h2>Get In Touch</h2>
+      <p>Whether you want to discuss a project, talk about novels, or just say hi, feel free to reach out!</p>
+      
+      <form class="contact-form" onsubmit="event.preventDefault(); alert('Message sent successfully! (This is a demo)');">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+
+      <div class="social-icons">
+        <a href="mailto:manyasingh193@gmail.com" title="Email"><i class="fa-solid fa-envelope"></i></a>
+        <a href="#" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+    </div>
+    
+  </div>
+</section>
+
+<footer>
+  <p>2026 Made by Manya with ❤️</p>
+</footer>
+
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>

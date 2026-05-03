@@ -66,7 +66,7 @@ if (canvas) {
 // TYPING EFFECT
 const typingEl = document.getElementById("typing");
 if (typingEl) {
-  const roles = ["Manya Singh", "a BCA Grad", "a Programmer"];
+  const roles = ["Manya Singh", "a BCA Graduate", "a Programmer"];
   let i = 0, j = 0;
   let isDeleting = false;
 
